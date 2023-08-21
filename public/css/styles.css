@@ -1,0 +1,166 @@
+/*
+Tamaños Tipográficos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-yellow {
+    background-color: #EAC926;
+}
+
+.bg-light-grey {
+    background-color: #EBEBEB;
+}
+
+.bg-blue {
+    background-color: #03264C;
+}
+
+.bg-light-blue {
+    background-color: #1259C3;
+}
+
+.font-dark-grey {
+    color: #666;
+}
+
+.bg-green {
+    background-color: #39B54A;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.tipografia-roboto {
+    font-family: 'Roboto', sans-serif; 
+}
+
+.t-cuerpo-texto {
+    font-size: 12px;
+}
+
+.t-titulares {
+    font-size: 24px;
+}
+
+.t-precios {
+    font-size: 18px;
+}
+
+.t-descuentos {
+    font-size: 16px;
+}
+
+.t-descripciones {
+    font-size: 16px;
+}
+
+.c-white {
+    color: white;
+}
+
+.centrado-horizontal {
+    display: flex;
+    justify-content: center;
+}
+
+.centrado-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.direction-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex {
+    display:flex;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.icon-light-blue {
+    color: #1259C3;
+}
+
+.burger-menu {
+    background-color: #1259C3;
+    color: white;
+    display: block;
+    max-width: 40px;
+    padding: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+
+.nav-without-bullet ul {
+    list-style: none;
+    margin: 0;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.div-footer {
+    display: block; 
+    text-align: center;
+    padding: 0;
+    margin: auto;
+    width: 70%;
+}
+
+.icon-lupa {
+    background-color: #EBEBEB;
+    color: #03264C;
+    display: block;
+    max-width: 25px;
+    padding: 2px 2px;
+    border-radius: 2px;
+    text-align: left;
+    font-size: 15px;
+    margin: auto;
+}
+
+header {
+    width: 100vh;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+main {
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    margin-bottom: 10px;
+    flex-direction: column;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+}
+
+.margin-left-25 {
+    margin-left: 25px;
+}
+
+.promocion-centrado {
+    display: flex;
+    justify-content: center;
+}
+
+
