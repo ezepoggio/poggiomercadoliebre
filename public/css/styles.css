@@ -99,15 +99,17 @@ Descripciones: 16px
 }
 
 .burger-menu {
+    display: flex;
     background-color: #1259C3;
     color: white;
     display: block;
     max-width: 40px;
-    padding: 5px 0;
+    padding: 5px;
     border-radius: 5px;
     text-align: center;
+    justify-content: center;
     font-size: 30px;
-    margin: auto;
+    margin: 0;
 }
 
 .nav-without-bullet ul {
@@ -141,6 +143,7 @@ header {
     width: 100%;
     margin: 0;
     background-color: #EAC926;
+    padding-bottom: 5px;
 }
 
 body {
@@ -188,4 +191,15 @@ p {
     border-top: 1px solid #EBEBEB;
     padding: 15px;
     background-color: white;
+}
+
+.divBurgerMenu {
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 361px) {
+    .sombraTabYDesk {
+        box-shadow: 0px 0px 10px rgb ( 100 , 100 , 100 );
+    }
 }
